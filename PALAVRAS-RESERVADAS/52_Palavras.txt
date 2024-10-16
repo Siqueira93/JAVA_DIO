@@ -1,0 +1,96 @@
+CONTROLES DE PACOTES
+
+import: importa pacotes ou classes para dentro do código
+
+package: especifica a que pacote todas as classes e um arquivo pertencem
+
+
+MODIFICADORES DE ACESSSO
+
+public: acesso de qualquer classes
+
+private: acesso apenas dentro da classes
+
+protected: acesso por classe no mesmo pacote e subclasses
+
+
+
+PRIMITIVOS
+
+boolean: um valor indicado verdadeiro ou falso
+
+byte: um inteiro de 8 bits(signed)
+
+char: um caracter unicode (16 bit unsigned)
+
+double: um numero de ponto flutuante de 64 bits (signed)
+
+float: um numero de ponto flutuante de 32 bits
+
+int: um inteiro de 32bits
+
+long: um inteiro de 64bits
+
+short: um inteiro de 32bits
+
+void: indica qe o metodo não tem retorno de valor
+
+
+MODIFICADORES DE CLASSE, VARIAVEIS OU METODOS
+
+abstract: classe que não pode ser instanciada ou método que precisa ser implementado por uma subclasse  não abstrata
+
+class: especifica uma classe
+
+extends: indica a superclasse que a subclasse está entendendo
+
+final: impossibilita que uma classe seja estendidad, que um metodo seja sobrescrito ou que uma variavel seja reinicializada
+
+implements: indica as interfaces que uma classe irá implementar
+
+interface: especifica uma interface
+
+native: indica que um método está escrito em uma linguagem dependente de plataforma, como o C
+
+new: instancia um novo objeto, chjamado seu construtor
+
+static: faz um metodo ou variavel pertencer a classe ao inves de as instancias
+
+strictfp: usado em frente a um metodo ou classe para indicar que o numeros de ponto flutuanbte seguirão as regras de ponto flutuante
+
+synchronized: indica que um metodo só pode ser acessado por uma thread de cada vez
+
+transient: impede serialização de campos
+
+volatile: indica que uma variavel pode ser alterada durante o uso de threads
+
+
+CONTROLE DE FLUXO DENTRO DE UM BLOCO DE CODIGO
+
+break: sai do bloco de codigo em que ele está
+
+case: executa um bloco de codigo  dependendo do teste do switch
+
+continue: pula a execução do código que viria após essa linha e vai para a próxima passagem do loop
+
+
+TRATAMENTO DE ERROS 
+
+assert: testa uma expressão condicional para verificar uma suposiçao do programador
+
+catch: declara o bloco de código usado para tratar uma execução
+
+finally: bloco de código, após um try catch, que é executado independentemente do fluxo de programa seguido ao lidar com uma exceção
+
+throw: usado para passar uma exceção para o método que o chamou
+
+throws: indica que um método pode passar uma exceção para o método que o chamou
+
+try: bloco de codido que tentará ser executado, mas que pode causar uma exceção
+
+
+VÁRIAVEL DE REFERENCIA
+
+super: refere-se a superclase imediata
+
+this: refere-se a instância atual do objeto
