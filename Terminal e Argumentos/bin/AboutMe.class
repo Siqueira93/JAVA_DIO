@@ -1,0 +1,15 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class AboutMe {
+   public AboutMe() {
+   }
+
+   public static void main(String[] args) {
+      String nome = args[0];
+      String sobrenome = args[1];
+      int idade = Integer.valueOf(args[2]);
+      double altura = Double.valueOf(args[3]);
+      System.out.println(" Ol\u00e1 me chamo " + nome + " " + sobrenome);
+      System.out.println(" Tenho " + idade + " anos ");
+      System.out.println("Minha altura \u00e9 " + altura + " cm");
+   }
+}
