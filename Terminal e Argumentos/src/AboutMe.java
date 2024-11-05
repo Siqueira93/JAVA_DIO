@@ -1,5 +1,8 @@
 import java.util.Locale;
+// importa uma biblioteca de valor aleatorio
+
 import java.util.Scanner;
+// para fazer a impressão das informações acrescentadas pelo usuario
 
 public class AboutMe {
     public static void main(String[] args) {
